@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resultado da Busca</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <style class="tables">
+      td,
+      tr,
+      table {
+        border: 1px solid #282a36;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <main class="results">
+        <section class="all-repos">
+          <div class="repo-title">
+            <a class="seta" href="https://lipefsa.github.io/githubsearch/"
+              ><ion-icon name="arrow-back-outline"></ion-icon></a>
+            <h1>Repositórios</h1>
+            <input
+              type="text"
+              id="filter"
+              class="filter-area"
+              placeholder="Filter"
+              oninput="filtrar(this.value)"/></div>
+            <section class="section">
+              <table id="tabela" class="tables"></table>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      main();
+    </script>
+  </body>
+</html>

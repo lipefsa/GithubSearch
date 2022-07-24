@@ -6,6 +6,10 @@ Além disso conta com um filtro para encontrar mais facilmente o que se busca na
 O projeto utiliza: HTML, CSS com Bootstrap e Javascript.
 
 
+# Como Usar
+
+Vá até o site <a href= "https://lipefsa.github.io/githubsearch/"> GithubSearch</a> e pesquise por repositórios de qualquer organização disponível no Github. Você receberá uma lista com todos os repositórios públicos disponíveis e poderá filtrar os resultados com o filtro locallizado na parte superior direito da tabela.
+
 # Licença
 
 A utilização do conteúdo deste repositório é livre e sem a necessidade de dar créditos.
